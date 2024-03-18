@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+.sidebar{
+    color: white;
+    background-color: black;
+    height: 100vh;
+    width: 20%;
+    padding: 2rem;
+    position: fixed;
+    z-index: 300;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+i{
+    color: white;
+    font-size: 1rem;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.one{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 3px solid white;
+    object-fit: cover;  
+}
+.at{
+    color: aqua;
+}
+.name{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.50rem;
+    margin-top: 10px;
+    
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1rem;
+    margin-top: 3rem;
+    color: white;
+}
+.last{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+.juu{
+    color: aqua;
+}
+.two{
+    background-image: url(WhatsApp\ Image\ 2024-03-14\ at\ 7.14.07\ AM.jpeg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold; 
+    background-attachment: fixed;  
+}
+.two p{
+    text-align: center;
+    z-index: 300;
+    margin-left: 50rem;
+}
+.two .ovary{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: .4;
+    z-index: 2;
+}
+
+.dates{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    
+}
+.days{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size:1.10rem;
+    font-weight: bold;
+}
+.age{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.10rem;
+    font-weight: bold;
+}
+.boo{
+    color: aqua;
+}
+.next{
+    width: 100%;
+    margin: 0 4rem;
+    padding-left: 18rem;
+    padding-right: 8rem;
+}
+.contact{
+    width: 100%;
+    padding-left: 22rem;
+    padding-right:4 rem;
+    background-color: #F5F8FD;
+}
+.designs{
+    width: 100%;
+    /* margin: 0.4rem; */
+    padding-left: 18rem;
+    padding-right: 8rem;
+    background-color:#F5F8FD ;
+    display: flex;
+    gap: 2rem;
+    padding-top: 3rem;
+    margin-top: 2rem;
+    
+}
+.boo{
+    margin-bottom: 1rem;
+    margin-left: 8rem;
+}
+   
+.next2{
+    width: 100%;
+    margin: 0 4rem;
+    padding-left: 18rem;
+    padding-right: 8rem;
+    background-color: #F5F8FD;
+    
+}
+.man2{
+   width: 90%;
+   height: 95%;
+}
+.man{
+   width: 100vw;
+}
+.line{
+    width: 5%;
+    
+}
+.dev{
+    color:#173B6C;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid aqua;
+    width: 5%;
+}
+.second{
+    display: flex;
+    margin-top: 1rem;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+.pin{
+   font-size: 2rem;
+   margin-bottom: 1rem;
+   color: #173B6C;
+   font-weight: bold;
+}
+.boy1{
+    background-color:#149DDD;
+    width: 50%;
+}
+.boy2{
+    border: 1px red;
+}
+
+.spans{
+    height: 7px;
+    width: 550px;
+    background-color: rgb(199, 199, 218);
+}
+.span1{
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+}
+.span2{
+    background-color: blue;
+    height: 100%;
+    width: 90%;
+}
+.span3{
+    background-color: blue;
+    height: 100%;
+    width: 75%;
+}
+.span4{
+    background-color: blue;
+    height: 100%;
+    width: 80%;
+}
+.span5{
+    background-color: blue;
+    height: 100%;
+    width: 90%;
+}
+.span6{
+    background-color: blue;
+    height: 100%;
+    width: 55%;
+}
+.ras{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.root{
+    width: 100%;
+}
+.call{
+    width: 50%;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+.ugs{
+    width: 80%;
+}
+.glu{
+    color: blue;
+    font-size: 1.50rem;
+}
+.apple{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.subject{
+    width: 70%;
+    padding: 3rem;
+    background-color: white;
+    
+}
+.subject input{
+    width: 100%;
+}
+.email{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.task{
+    display: flex;
+    margin-top: 1rem;
+    gap: 5rem;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.vad{
+    background-color: blue;
+    color: white;
+    font-size: 1.50rem;
+    border: none;
+    padding: 10px;
+    margin-top: 1rem;
+}
+.inputs{
+    padding: .8rem 4rem;
+}
+.subj{
+    padding: 1rem 2rem;
+}
+
+
