@@ -5,458 +5,467 @@
     box-sizing: border-box;
     font-family: "Outfit", sans-serif;
 }
-.sidebar{
-    color: white;
-    background-color: black;
-    height: 100vh;
-    width: 20%;
-    padding: 2rem;
-    position: fixed;
-    z-index: 300;
-    @media(max-width:768px){
-        display: none;
-    }
-}
-.image{
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    
-}
-i{
-    color: white;
-    font-size: 1rem;
-}
-a{
-    text-decoration: none;
-    color: whitesmoke;
-}
-.one{
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    border: 3px solid white;
-    object-fit: cover;  
-}
-.at{
-    color: aqua;
-}
-.name{
-    text-align: center;
-    font-weight: bold;
-    margin-top: 1rem;
-}
-.icon{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    font-size: 1.50rem;
-    margin-top: 10px;
-    
-}
-.about{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    font-size: 1rem;
-    margin-top: 3rem;
-    color: white;
-}
-.last{
-    margin-top: 4rem;
-    display: flex;
-    justify-content: center;
-}
-.juu{
-    color: aqua;
-}
-.two{
-    background-image: url(WhatsApp\ Image\ 2024-03-14\ at\ 7.14.07\ AM.jpeg);
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-    background-size: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    color: white;
-    font-size: 3rem;
-    font-weight: bold; 
-    background-attachment: fixed; 
-    @media(max-width:768px){
-        width: 100%;
-        height: 50vh;
+    .top-header{
         display: flex;
-        justify-content: start;
-        font-size: 1.50rem;
-        font-weight: bold;
-        background-image: url(WhatsApp\ Image\ 2024-03-14\ at\ 7.14.07\ AM.jpeg);
-        background-repeat: no-repeat;
-        height: 100vh;
-        width: 100%;
-        background-size: 100%;
-        object-fit: cover;
-    } 
-}
-.two p{
-    text-align: center;
-    z-index: 300;
-    margin-left: 50rem;
-    @media(max-width:768px){
-        margin-left: 1rem;
-    }
-
-}
-.two .ovary{
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    opacity: .4;
-    z-index: 2;
-}
-
-.dates{
-    display: flex;
-    width: 90%;
-    margin-bottom: 1rem;
-    @media(max-width:768px){
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;  
-    } 
-}
-.days{
-   display: flex;
-   flex-direction: column;
-   font-weight: bold;
-   gap: 1rem;
-   margin: 0;
-    @media(max-width:768px){
-        display: flex;
-        gap: .6rem;  
-    }
-    .cross{
-        display: flex;
-    }
-}
-.boo{
-    color: aqua;
-    font-size: 1.50rem;
-    @media(max-width:768px){
-        font-size: 1.30rem;
-    }
-}
-.next{
-    width: 100%;
-    margin: 0 3rem;
-    padding-left: 17rem;
-    padding-right: 5rem;
-    @media(max-width:768px){
-        padding-left: 0;
-        padding-right: 0;
-        margin: 0 ;
+        align-items: center;
         padding: 1rem;
-    }
-}
-.contact{
-    width: 100%;
-    padding-left: 22rem;
-    padding-right:4rem;
-    background-color: #F5F8FD;
-    @media(max-width:768px){
-        padding-left: 0;
-        padding-right: 0;
+        justify-content: space-between;
+        position: fixed;
+        background-color:black;
+        color: #F5F8FD;
         width: 100%;
-    }
-    .lol{
-        @media(max-width:768px){
-            padding: 1rem;
-        } 
-    }
-}
-form{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 1rem;
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    @media(max-width:768px){
-        padding: 1rem;
-    }
-}
-.designs{
-    width: 100%;
-    /* margin: 0.4rem; */
-    padding-left: 18rem;
-    padding-right: 8rem;
-    background-color:#F5F8FD ;
-    display: flex;
-    gap: 2rem;
-    padding-top: 3rem;
-    margin-top: 2rem;
-    @media(max-width:768px){
-       display: none;
-    }
-    .root{
-        width: 100%;
-        @media(max-width:768px){
-            width: 50%;
-            margin-left: 3rem;
-            border-radius: 5px;
+        z-index: 9999;
+        i{
+            color:white;
+            font-size: 1.30rem;
         }
     }
-    
-}
-.boo{
-    margin-bottom: 1rem;
-    margin-left: 8rem;
-    @media(max-width:768px){
-        margin-left: 0;
+    .sidebar{
+        color: white;
+        background-color: black;
+        height: 100vh;
+        width: 20%;
+        padding: 2rem;
+        position: fixed;
+        z-index: 300;
+        @media(max-width:768px){
+            display: none;
+        }
+    }
+    .image{
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
         
     }
-}
-   
-.next2{
-    width: 100%;
-    margin: 0 4rem;
-    padding-left: 18rem;
-    padding-right: 8rem;
-    background-color: #F5F8FD;
-    @media(max-width:768px){
-        margin: 0;
-        padding-left: 0;
-        padding-right: 0;
+    i{
+        color: white;
+        font-size: 1rem;
+    }
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    .one{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        border: 3px solid white;
+        object-fit: cover;  
+    }
+    .at{
+        color: aqua;
+    }
+    .name{
+        text-align: center;
+        font-weight: bold;
+        margin-top: 1rem;
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        font-size: 1.50rem;
+        margin-top: 10px;
+        
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        font-size: 1rem;
+        margin-top: 3rem;
+        color: white;
+    }
+    .last{
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+    }
+    .juu{
+        color: aqua;
+    }
+    .two{
+        background-image: url(WhatsApp\ Image\ 2024-03-14\ at\ 7.14.07\ AM.jpeg);
+        background-repeat: no-repeat;
+        height: 30vh;
         width: 100%;
-        padding: 1rem;
+        background-size: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        color: white;
+        font-size: 3rem;
+        font-weight: bold; 
+        background-attachment: fixed; 
+        @media(max-width:768px){
+            width: 100%;
+            
+            display: flex;
+            justify-content: start;
+            font-size: 1.50rem;
+            font-weight: bold;
+            background-image: url(WhatsApp\ Image\ 2024-03-14\ at\ 7.14.07\ AM.jpeg);
+            background-repeat: no-repeat;
+            
+            width: 100%;
+            background-size: 100%;
+            object-fit: cover;
+        } 
+    }
+    .two p{
+        text-align: center;
+        z-index: 300;
+        margin-left: 50rem;
+        @media(max-width:768px){
+            margin-left: 1rem;
+        }
+    
+    }
+    .two .ovary{
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        opacity: .4;
+        z-index: 2;
     }
     
-}
-.man2{
-   width: 90%;
-   height: 95%;
-   @media(max-width:768px){
-    width: 70%;
-    border-radius: 5px;
-    object-fit: cover;
-    height: 50%;
-   }
-}
-.man{
-   width: 100vw;
-   @media(max-width:768px){
-    display: flex;
-    justify-content: center;
-    width: 100%;
-   }
-}
-.line{
-    width: 5%;
-    
-}
-.dev{
-    color:#173B6C;
-    font-size: 2rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border-bottom: 3px solid aqua;
-    width: 5%;
-    @media(max-width:768px){
-        font-size: 1.30rem;
-        margin-top: .6rem;
-        margin-bottom: .6rem;
+    .dates{
+        display: flex;
+        width: 50vw;
+        margin-bottom: 1rem;
+        @media(max-width:768px){
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            width: 100%;  
+        } 
+        .birth{
+            border: 1px solid blue;
+        }
     }
-}
-.second{
-    display: flex;
-    gap: 0rem;
-    margin-top: 2rem;
-    @media(max-width:768px){
+    .days{
+       display: flex;
+       flex-direction: column;
+       font-weight: bold;
+       gap: 1rem;
+       margin: 0;
+        @media(max-width:768px){
+            display: flex;
+            gap: .6rem;  
+        }
+        .cross{
+            display: flex;
+        }
+    }
+    .boo{
+        color: aqua;
+        font-size: 1.50rem;
+        @media(max-width:768px){
+            font-size: 1.30rem;
+        }
+    }
+    .next{
+        width: 100%;
+        margin: 0 3rem;
+        padding-left: 19rem;
+        padding-right: 5rem;
+        @media(max-width:768px){
+            padding-left: 0;
+            padding-right: 0;
+            margin: 0 ;
+            padding: 1rem;
+        }
+    }
+    .contact{
+        width: 100%;
+        padding-left: 22rem;
+        padding-right:4rem;
+        background-color: #F5F8FD;
+        padding-top: 2rem;
+        @media(max-width:768px){
+            padding-left: 0;
+            padding-right: 0;
+            width: 100%;
+        }
+        .lol{
+            @media(max-width:768px){
+                padding: 1rem;
+            } 
+        }
+    }
+    form{
         display: flex;
         flex-direction: column;
         gap: 1rem;
-        margin-top: 1rem;
-    }
-
-}
-.pin{
-   font-size: 2rem;
-   margin-bottom: 1rem;
-   color: #173B6C;
-   font-weight: bold;
-   @media(max-width:768px){
-    font-size: 1rem;
-   }
-}
-.boy1{
-    background-color:#149DDD;
-    width: 50%;
-}
-.boy2{
-    border: 1px red;
-}
-
-.spans{
-    height: 7px;
-    width: 550px;
-    background-color: rgb(199, 199, 218);
-    @media(max-width:768px){
-       width: 100%;
-    }
-}
-.span1{
-    background-color: blue;
-    height: 100%;
-    width: 100%;
-    @media(max-width:768px){
-        width: 100%;
-    }
-}
-.span2{
-    background-color: blue;
-    height: 100%;
-    width: 90%;
-}
-.span3{
-    background-color: blue;
-    height: 100%;
-    width: 75%;
-}
-.span4{
-    background-color: blue;
-    height: 100%;
-    width: 80%;
-}
-.span5{
-    background-color: blue;
-    height: 100%;
-    width: 90%;
-}
-.span6{
-    background-color: blue;
-    height: 100%;
-    width: 55%;
-}
-.ras{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 2rem;
-  @media(max-width:768px){
-    margin-top: 1rem;
-    
-  }
-}
-.menu{
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    @media(max-width:768px){
-        display: flex;
-        flex-direction: column;
-        padding: 0; 
-        padding-bottom: 1rem;
-    }
-}
-
-.call{
-    width: 50%;
-    padding-left: 3rem;
-    padding-top: 1rem;
-    background-color: white;
-    @media(max-width:768px){
-        width: 100%;
         padding-left: 0;
-        padding: 1rem;
-    }
-}
-.ugs{
-    width: 80%;
-    @media(max-width:768px){
-        width: 100%;
-    }
-}
-.glu{
-    color: blue;
-    font-size: 1.50rem;
-}
-.apple{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-.subject{
-    width: 70%;
-    padding: 3rem;
-    background-color: white;
-    @media(max-width:768px){
-        width: 100%;
-        padding: 0;
-    }
-    
-}
-.subject input{
-    width: 100%;
-    @media(max-width:768px){
-        width: 100%;
-        padding: 2px;
-    }
-}
-.email{
-    display: flex;
-    gap: 2rem;
-    margin-top: 2rem;
-    @media(max-width:768px){
+        padding-right: 0;
+        padding-top: 1rem;
+        margin-top: 1rem;
         display: flex;
         flex-direction: column;
-        margin-top: 1rem;
+        @media(max-width:768px){
+            padding: 1rem;
+        }
     }
-}
-.task{
-    display: flex;
-    margin-top: 1rem;
-    gap: 5rem;
-    @media(max-width:768px){
+    .boo{
+        margin-bottom: 1rem;
+        margin-left: 8rem;
+        @media(max-width:768px){
+            margin-left: 0;
+            
+        }
+    }
+       
+    .next2{
+        width: 100%;
+        margin: 0 4rem;
+        padding-left: 18rem;
+        padding-right: 8rem;
+        background-color: #F5F8FD;
+        @media(max-width:768px){
+            margin: 0;
+            padding-left: 0;
+            padding-right: 0;
+            width: 100%;
+            padding: 1rem;
+        }
+        
+    }
+    .man2{
+       width: 90%;
+       height: 95%;
+       @media(max-width:768px){
+        width: 70%;
+        border-radius: 5px;
+        object-fit: cover;
+        height: 50%;
+       }
+    }
+    .man{
+       width: 100vw;
+       @media(max-width:768px){
+        display: flex;
+        justify-content: center;
+        width: 100%;
+       }
+    }
+    .line{
+        width: 5%;
+        
+    }
+    .dev{
+        color:#173B6C;
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 3px solid aqua;
+        width: 5%;
+        @media(max-width:768px){
+            font-size: 1.30rem;
+            margin-top: .6rem;
+            margin-bottom: .6rem;
+        }
+    }
+    .second{
+        display: flex;
+        gap: 0rem;
+        margin-top: 2rem;
+        @media(max-width:768px){
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+    
+    }
+    .pin{
+       font-size: 2rem;
+       margin-bottom: 1rem;
+       color: #173B6C;
+       font-weight: bold;
+       margin-top: 3rem;
+       margin-left: 9rem;
+       @media(max-width:768px){
+        font-size: 1rem;
+        margin-left: 0;
+        margin-top: 0;
+       }
+    }
+    .boy1{
+        background-color:#149DDD;
+        width: 50%;
+    }
+    .boy2{
+        border: 1px red;
+    }
+    
+    .spans{
+        height: 7px;
+        width: 550px;
+        background-color: rgb(199, 199, 218);
+        @media(max-width:768px){
+           width: 100%;
+        }
+    }
+    .span1{
+        background-color: blue;
+        height: 100%;
+        width: 100%;
+        @media(max-width:768px){
+            width: 100%;
+        }
+    }
+    .span2{
+        background-color: blue;
+        height: 100%;
+        width: 90%;
+    }
+    .span3{
+        background-color: blue;
+        height: 100%;
+        width: 75%;
+    }
+    .span4{
+        background-color: blue;
+        height: 100%;
+        width: 80%;
+    }
+    .span5{
+        background-color: blue;
+        height: 100%;
+        width: 90%;
+    }
+    .span6{
+        background-color: blue;
+        height: 100%;
+        width: 55%;
+    }
+    .ras{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2rem;
+      @media(max-width:768px){
+        margin-top: 1rem;
+        
+      }
+    }
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        @media(max-width:768px){
+            display: flex;
+            flex-direction: column;
+            padding: 0; 
+            padding-bottom: 1rem;
+        }
+    }
+    
+    .call{
+        width: 50%;
+        padding-left: 3rem;
+        padding-top: 1rem;
+        background-color: white;
+        @media(max-width:768px){
+            width: 100%;
+            padding-left: 0;
+            padding: 1rem;
+        }
+    }
+    .ugs{
+        width: 80%;
+        @media(max-width:768px){
+            width: 100%;
+        }
+    }
+    .glu{
+        color: blue;
+        font-size: 1.50rem;
+    }
+    .apple{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+    .subject{
+        width: 70%;
+        padding: 3rem;
+        background-color: white;
+        @media(max-width:768px){
+            width: 100%;
+            padding: 0;
+        }
+        
+    }
+    .subject input{
+        width: 100%;
+        @media(max-width:768px){
+            width: 100%;
+            padding: 2px;
+        }
+    }
+    .email{
         display: flex;
         gap: 2rem;
+        margin-top: 2rem;
+        @media(max-width:768px){
+            display: flex;
+            flex-direction: column;
+            margin-top: 1rem;
+        }
     }
-}
-.btn{
-    display: flex;
-    justify-content: center;
-    @media(max-width:768px){
-     display: flex; 
-     justify-content: start;  
+    .task{
+        display: flex;
+        margin-top: 1rem;
+        gap: 5rem;
+        @media(max-width:768px){
+            display: flex;
+            gap: 2rem;
+        }
     }
-}
-.vad{
-    background-color: blue;
-    color: white;
-    font-size: 1rem;
-    border: none;
-    padding: 10px;
-    margin-top: 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-    @media(max-width:768px){
-        padding: 6px;
+    .btn{
+        display: flex;
+        justify-content: center;
+        @media(max-width:768px){
+         display: flex; 
+         justify-content: start;  
+        }
+    }
+    .vad{
+        background-color: blue;
+        color: white;
         font-size: 1rem;
-        margin-top: .50rem;
+        border: none;
+        padding: 10px;
+        margin-top: 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        @media(max-width:768px){
+            padding: 6px;
+            font-size: 1rem;
+            margin-top: .50rem;
+        }
     }
-}
-.inputs{
-    padding: .8rem 4rem;
-}
-.subj{
-    padding: 1rem 2rem;
-}
-
-
+    .inputs{
+        padding: .8rem 4rem;
+    }
+    .subj{
+        padding: 1rem 2rem;
+    }
+    .skills{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 1.20rem;
+        color: black;
+    }
+    
+    
+    
