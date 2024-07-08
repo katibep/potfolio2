@@ -13,6 +13,9 @@
     padding: 2rem;
     position: fixed;
     z-index: 300;
+    @media(max-width:768px){
+        display: none;
+    }
 }
 .image{
     display: flex;
@@ -80,12 +83,30 @@ a{
     color: white;
     font-size: 3rem;
     font-weight: bold; 
-    background-attachment: fixed;  
+    background-attachment: fixed; 
+    @media(max-width:768px){
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: start;
+        font-size: 1.50rem;
+        font-weight: bold;
+        background-image: url(WhatsApp\ Image\ 2024-03-14\ at\ 7.14.07\ AM.jpeg);
+        background-repeat: no-repeat;
+        height: 20vh;
+        width: 100%;
+        background-size: 100%;
+        object-fit: cover;
+    } 
 }
 .two p{
     text-align: center;
     z-index: 300;
     margin-left: 50rem;
+    @media(max-width:768px){
+        margin-left: 1rem;
+    }
+
 }
 .two .ovary{
     background-color: black;
@@ -101,39 +122,76 @@ a{
 
 .dates{
     display: flex;
-    justify-content: space-between;
+    width: 90%;
     margin-bottom: 1rem;
-    font-size: 1rem;
-    
+    @media(max-width:768px){
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;  
+    } 
 }
 .days{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    font-size:1.10rem;
-    font-weight: bold;
-}
-.age{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    font-size: 1.10rem;
-    font-weight: bold;
+   display: flex;
+   flex-direction: column;
+   font-weight: bold;
+   gap: 1rem;
+   margin: 0;
+    @media(max-width:768px){
+        display: flex;
+        gap: .6rem;  
+    }
+    .cross{
+        display: flex;
+    }
 }
 .boo{
     color: aqua;
+    font-size: 1.50rem;
+    @media(max-width:768px){
+        font-size: 1.30rem;
+    }
 }
 .next{
     width: 100%;
-    margin: 0 4rem;
-    padding-left: 18rem;
-    padding-right: 8rem;
+    margin: 0 3rem;
+    padding-left: 17rem;
+    padding-right: 5rem;
+    @media(max-width:768px){
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 ;
+        padding: 1rem;
+    }
 }
 .contact{
     width: 100%;
     padding-left: 22rem;
-    padding-right:4 rem;
+    padding-right:4rem;
     background-color: #F5F8FD;
+    @media(max-width:768px){
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+    .lol{
+        @media(max-width:768px){
+            padding: 1rem;
+        } 
+    }
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    @media(max-width:768px){
+        padding: 1rem;
+    }
 }
 .designs{
     width: 100%;
@@ -145,11 +203,26 @@ a{
     gap: 2rem;
     padding-top: 3rem;
     margin-top: 2rem;
+    @media(max-width:768px){
+       display: none;
+    }
+    .root{
+        width: 100%;
+        @media(max-width:768px){
+            width: 50%;
+            margin-left: 3rem;
+            border-radius: 5px;
+        }
+    }
     
 }
 .boo{
     margin-bottom: 1rem;
     margin-left: 8rem;
+    @media(max-width:768px){
+        margin-left: 0;
+        
+    }
 }
    
 .next2{
@@ -158,14 +231,32 @@ a{
     padding-left: 18rem;
     padding-right: 8rem;
     background-color: #F5F8FD;
+    @media(max-width:768px){
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        padding: 1rem;
+    }
     
 }
 .man2{
    width: 90%;
    height: 95%;
+   @media(max-width:768px){
+    width: 70%;
+    border-radius: 5px;
+    object-fit: cover;
+    height: 50%;
+   }
 }
 .man{
    width: 100vw;
+   @media(max-width:768px){
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   }
 }
 .line{
     width: 5%;
@@ -178,18 +269,32 @@ a{
     margin-bottom: 1rem;
     border-bottom: 3px solid aqua;
     width: 5%;
+    @media(max-width:768px){
+        font-size: 1.30rem;
+        margin-top: .6rem;
+        margin-bottom: .6rem;
+    }
 }
 .second{
     display: flex;
-    margin-top: 1rem;
-    gap: 3rem;
+    gap: 0rem;
     margin-top: 2rem;
+    @media(max-width:768px){
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
 }
 .pin{
    font-size: 2rem;
    margin-bottom: 1rem;
    color: #173B6C;
    font-weight: bold;
+   @media(max-width:768px){
+    font-size: 1rem;
+   }
 }
 .boy1{
     background-color:#149DDD;
@@ -203,11 +308,17 @@ a{
     height: 7px;
     width: 550px;
     background-color: rgb(199, 199, 218);
+    @media(max-width:768px){
+       width: 100%;
+    }
 }
 .span1{
     background-color: blue;
     height: 100%;
     width: 100%;
+    @media(max-width:768px){
+        width: 100%;
+    }
 }
 .span2{
     background-color: blue;
@@ -238,23 +349,39 @@ a{
   display: flex;
   justify-content: space-between;
   margin-top: 2rem;
+  @media(max-width:768px){
+    margin-top: 1rem;
+    
+  }
 }
 .menu{
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+    @media(max-width:768px){
+        display: flex;
+        flex-direction: column;
+        padding: 0; 
+        padding-bottom: 1rem;
+    }
 }
-.root{
-    width: 100%;
-}
+
 .call{
     width: 50%;
     padding-left: 3rem;
     padding-top: 1rem;
     background-color: white;
+    @media(max-width:768px){
+        width: 100%;
+        padding-left: 0;
+        padding: 1rem;
+    }
 }
 .ugs{
     width: 80%;
+    @media(max-width:768px){
+        width: 100%;
+    }
 }
 .glu{
     color: blue;
@@ -270,32 +397,60 @@ a{
     width: 70%;
     padding: 3rem;
     background-color: white;
+    @media(max-width:768px){
+        width: 100%;
+        padding: 0;
+    }
     
 }
 .subject input{
     width: 100%;
+    @media(max-width:768px){
+        width: 100%;
+        padding: 2px;
+    }
 }
 .email{
     display: flex;
     gap: 2rem;
     margin-top: 2rem;
+    @media(max-width:768px){
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
 }
 .task{
     display: flex;
     margin-top: 1rem;
     gap: 5rem;
+    @media(max-width:768px){
+        display: flex;
+        gap: 2rem;
+    }
 }
 .btn{
     display: flex;
     justify-content: center;
+    @media(max-width:768px){
+     display: flex; 
+     justify-content: start;  
+    }
 }
 .vad{
     background-color: blue;
     color: white;
-    font-size: 1.50rem;
+    font-size: 1rem;
     border: none;
     padding: 10px;
     margin-top: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    @media(max-width:768px){
+        padding: 6px;
+        font-size: 1rem;
+        margin-top: .50rem;
+    }
 }
 .inputs{
     padding: .8rem 4rem;
