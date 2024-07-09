@@ -520,6 +520,7 @@ html{
             padding: 6px;
             font-size: 1rem;
             margin-top: .50rem;
+            background-color: black;
         }
     }
     .inputs{
